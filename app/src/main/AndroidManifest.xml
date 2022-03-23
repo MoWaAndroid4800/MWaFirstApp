@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.covid_19">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.COVID19">
+        <activity android:name=".MainActivity2"></activity>
+        <activity android:name=".webview7" />
+        <activity android:name=".webview6" />
+        <activity android:name=".webview5" />
+        <activity android:name=".webview4" />
+        <activity android:name=".webview3" />
+        <activity android:name=".webview2" />
+        <activity android:name=".webview" />
+        <activity android:name=".Rating" />
+        <activity android:name=".Activity2" />
+        <activity android:name=".NewActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewActivity"
+android:id="@+id/linlay"
+    android:orientation="vertical">
+
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="open"
+            android:layout_margin="18dp"
+            android:background="@drawable/lvs"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMaxTextSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="18dp"
+            android:background="@drawable/stats"
+            android:layout_weight="1"
+            android:onClick="open2"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMaxTextSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/button"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="18dp"
+            android:layout_weight="1"
+            android:background="@drawable/prevs"
+            android:onClick="open4"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMaxTextSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/button2"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="18dp"
+            android:layout_weight="1"
+            android:background="@drawable/dt"
+            android:onClick="open5"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMaxTextSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/button4"
+            tools:layout_editor_absoluteX="155dp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_margin="18dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/rems"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMaxTextSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/button5"
+            tools:layout_editor_absoluteX="156dp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/presley"
+            android:layout_weight="1"
+            android:layout_margin="18dp"
+            android:onClick="open3"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMaxTextSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/button6"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/covistant"
+            android:layout_weight="1"
+            android:layout_margin="18dp"
+            android:onClick="open3"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMaxTextSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/button6"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/vaccine"
+            android:layout_weight="1"
+            android:layout_margin="18dp"
+            android:onClick="open3"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMaxTextSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/button6"
+            tools:layout_editor_absoluteX="0dp" />
+
+
+    </LinearLayout>
